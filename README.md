@@ -16,7 +16,7 @@ Este repositorio academico tiene el objetivo de demostrar el funcionamiento de a
 | 1.              |   Lucas Kanade       | Optical Flow |   <ul> <li>[Código Fuente](/opticalFlow/src/LukasKanade.py)</li></ul>    |  [Artículo](https://cecas.clemson.edu/~stb/klt/lucas_bruce_d_1981_1.pdf)
 | 2.              |  Farneback     | Optical Flow |   <ul> <li>[Código Fuente](/opticalFlow/src/farneback.py)</li></ul>    |  <ul> <li> [Artículo](http://www.diva-portal.org/smash/get/diva2:273847/FULLTEXT01.pdf)</li> </ul>
 | 3.              |  Kalman Filter   | Stochastic Filter |   <ul> <li>[Código Fuente](/kalman-filter/src/main.py)</li> </ul>    |  <ul><li>[Artículo](https://www.unitedthc.com/DSP/Kalman1960.pdf) <li> [Desarrollo Matemático](http://140.113.144.123/EnD106/Bayesian%20filtering-%20from%20Kalman%20filters%20to%20Particle%20filters%20and%20beyond.pdf) </li></ul>
-| 4.              |Particle Filter  | Stochastic Filter |   <ul> <li>[Código Fuente](/particle-filter/src/particle_filter.py)</li> </ul>    |  <ul><li>[Artículo](http://robots.stanford.edu/papers/fox.aaai99.pdf) <li> [Implementación de referencia] (https://www.mdpi.com/1424-8220/21/2/438) </li></ul> |
+| 4.              |Particle Filter  | Stochastic Filter |   <ul> <li>[Código Fuente](/particle-filter/src/particle_filter.py)</li> </ul>    |  <ul><li>[Artículo](http://robots.stanford.edu/papers/fox.aaai99.pdf) <li> [Implementación referencia] (https://www.mdpi.com/1424-8220/21/2/438) </li></ul> |
 
 
 
