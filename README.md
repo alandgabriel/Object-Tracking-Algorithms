@@ -22,21 +22,25 @@ Este repositorio academico tiene el objetivo de demostrar el funcionamiento de a
 
 ## Demo
 
-Insert gif or link to demo
+Lukas Kanade
 
- ![alt text](figs/bg.png)
- 
-## Screenshots
+ ![alt text](figs/lk.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+Farneback
+![alt text](figs/farn.png)
   
+Kalman Filter
+![alt text](figs/kf.png)
+
+Particle Filter
+![alt text](figs/pf.png)
+
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/alandgabriel/Object-Tracking-Algorithms.git
 ```
 
 Go to the project directory
