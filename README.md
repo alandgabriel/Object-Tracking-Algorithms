@@ -65,7 +65,7 @@ Corre el Filtro Partícula
 
 Corre el algoritmo de Lukas Kanade
 ```bash
-  python opticalFlow/src/LukasKanade.py
+  python opticalFlow/src/lk.py
 ```
 
 Corre el algoritmo de Farneback
