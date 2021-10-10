@@ -27,12 +27,15 @@ Lukas Kanade
  ![alt text](figs/lk.png)
 
 Farneback
+
 ![alt text](figs/farn.png)
   
 Kalman Filter
+
 ![alt text](figs/kf.png)
 
 Particle Filter
+
 ![alt text](figs/pf.png)
 
 ## Run Locally
