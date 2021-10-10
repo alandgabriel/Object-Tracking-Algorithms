@@ -1,20 +1,23 @@
 # Object-Tracking-Algorithms
 
-Este repositorio academico tiene el objetivo de demostrar el funcionamiento de algoritmos de Seguimiento como:
- <ul> <li>[Optical Flow]</li></ul>  
- <ul> <li>[Kalman Filter]</li></ul> 
- <ul> <li>[Particle Filter]</li></ul> 
+Este repositorio academico tiene el objetivo de demostrar el funcionamiento de algoritmos de Seguimiento que pertenecen a las siguientes familias:
+ <ul> <li>Optical Flow</li></ul>  
+ <ul> <li>Kalman Filter</li></ul> 
+ <ul> <li>Particle Filter</li></ul> 
 
-## Authors
+## Autores
 
-- [@katherinepeterson](https://www.github.com/octokatherine)
+- [@alandgabriel](https://www.github.com/alandgabriel)
 
  
 ## Contenido del curso
-| No.        | Tema           | Conceptos |Código  |  Material complementario|
+| No.        | Algoritmo           | Familia | Código  |  Referencias|
 | :-------------: |:-------------| :-------------|:-----:| :-----|
-| 1.              |Introducción a cuDNN          | Introducción a cuDNN, modelo de programación paralelo, arquitectura |   <ul> <li>[cuDNN Developer Guide](https://docs.nvidia.com/deeplearning/cudnn/developer-guide/index.html)</li></ul>    |  [Artículo seminal](https://arxiv.org/abs/1410.0759)
-| 2.              |API C++ y modelo de programación          | Modelo de programación paralelo |   <ul> <li>[CUDA Samples](/code/cuda_samples_v11.4/Samples)</li><li>[cuDNN Samples](/code/cudnn_samples_v8)</li> <li>[Convolución simple](code/simple_convolution/conv.cu)</li></ul>    |  <ul> <li> [Getting Started](https://docs.nvidia.com/deeplearning/cudnn/index.html)</li> <li>[Guía de instalación](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html) </li> </ul>
+| 1.              |   Lucas Kanade       | Optical Flow |   <ul> <li>[Código Fuente](/opticalFlow/src/LukasKanade.py)</li></ul>    |  [Artículo](https://cecas.clemson.edu/~stb/klt/lucas_bruce_d_1981_1.pdf)
+| 2.              |  Farneback     | Optical Flow |   <ul> <li>[Código Fuente](/opticalFlow/src/farneback.py)</li></ul>    |  <ul> <li> [Artículo](http://www.diva-portal.org/smash/get/diva2:273847/FULLTEXT01.pdf)</li> </ul>
+| 3.              |  Kalman Filter   | Stochastic Filter |   <ul> <li>[Código Fuente](/kalman-filter/src/main.py)</li> </ul>    |  <ul><li>[Artículo](https://www.unitedthc.com/DSP/Kalman1960.pdf) <li> [Desarrollo Matemático](http://140.113.144.123/EnD106/Bayesian%20filtering-%20from%20Kalman%20filters%20to%20Particle%20filters%20and%20beyond.pdf) </li></ul>
+| 4.              |Particle Filter  | Stochastic Filter |   <ul> <li>[Código Fuente](/particle-filter/src/particle_filter.py)</li> </ul>    |  <ul> <li>[Artículo](http://robots.stanford.edu/papers/fox.aaai99.pdf) <li>[Implementación de referencia] (https://www.mdpi.com/1424-8220/21/2/438) </li></ul>
+
 
 
 ## Demo
