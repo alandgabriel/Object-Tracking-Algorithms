@@ -13,7 +13,7 @@ Este repositorio academico tiene el objetivo de demostrar el funcionamiento de a
 ## Contenido del curso
 | No.        | Algoritmo           | Familia | Código  |  Referencias|
 | :-------------: |:-------------| :-------------|:-----:| :-----|
-| 1.              |   Lucas Kanade       | Optical Flow |   <ul> <li>[Código Fuente](/opticalFlow/src/LukasKanade.py)</li></ul>    | <ul><li> [Artículo](https://cecas.clemson.edu/~stb/klt/lucas_bruce_d_1981_1.pdf) </li></ul>
+| 1.              |   Lucas Kanade       | Optical Flow |   <ul> <li>[Código Fuente](/opticalFlow/src)</li></ul>    | <ul><li> [Artículo](https://cecas.clemson.edu/~stb/klt/lucas_bruce_d_1981_1.pdf) </li></ul>
 | 2.              |  Farneback     | Optical Flow |   <ul> <li>[Código Fuente](/opticalFlow/src/farneback.py)</li></ul>    |  <ul> <li> [Artículo](http://www.diva-portal.org/smash/get/diva2:273847/FULLTEXT01.pdf)</li> </ul>
 | 3.              |  Kalman Filter   | Stochastic Filter |   <ul> <li>[Código Fuente](/kalman-filter/src/main.py)</li> </ul>    |  <ul><li>[Artículo](https://www.unitedthc.com/DSP/Kalman1960.pdf) <li> [Desarrollo Matemático](http://140.113.144.123/EnD106/Bayesian%20filtering-%20from%20Kalman%20filters%20to%20Particle%20filters%20and%20beyond.pdf) </li></ul>
 | 4.              |Particle Filter  | Stochastic Filter |   <ul> <li>[Código Fuente](/particle-filter/src/particle_filter.py)</li> </ul>    |  <ul><li>[Artículo](http://robots.stanford.edu/papers/fox.aaai99.pdf)<li> [Implementación de referencia](https://www.mdpi.com/1424-8220/21/2/438/pdf) <li> [Desarrollo Matemático](http://140.113.144.123/EnD106/Bayesian%20filtering-%20from%20Kalman%20filters%20to%20Particle%20filters%20and%20beyond.pdf) </li></ul> 
@@ -27,57 +27,48 @@ Lukas Kanade
  ![alt text](figs/lk.png)
 
 Farneback
+
 ![alt text](figs/farn.png)
   
 Kalman Filter
+
 ![alt text](figs/kf.png)
 
 Particle Filter
+
 ![alt text](figs/pf.png)
 
-## Run Locally
+## Corre Localmente
 
-Clone the project
+Clona el proyecto
 
 ```bash
   git clone https://github.com/alandgabriel/Object-Tracking-Algorithms.git
 ```
 
-Go to the project directory
+Accede al directorio del proyecto
 
 ```bash
-  cd my-project
+  cd Object-Tracking-Algorithms
 ```
 
-Install dependencies
 
+Corre el Filtro Partícula
 ```bash
-  npm install
+  python particle-filter/src/particle_filter.py
 ```
 
-Start the server
-
+ Corre el Filtro de Kalman 
 ```bash
-  npm run start
+  python kalman-filter/src/main.py
 ```
 
-  
-## Running Tests
-
-To run tests, run the following command
-
+Corre el algoritmo de Lukas Kanade
 ```bash
-  npm run test
+  python opticalFlow/src/LukasKanade.py
 ```
 
-  
-## Usage/Examples
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
+Corre el algoritmo de Farneback
+```bash
+  python opticalFlow/src/farneback.py
 ```
-
