@@ -63,4 +63,3 @@ while (vid.isOpened()):
 
 vid.release()
 cv2.destroyAllWindows()
-
