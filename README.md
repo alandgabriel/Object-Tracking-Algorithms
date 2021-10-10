@@ -38,49 +38,37 @@ Particle Filter
 
 ![alt text](figs/pf.png)
 
-## Run Locally
+## Corre Localmente
 
-Clone the project
+Clona el proyecto
 
 ```bash
   git clone https://github.com/alandgabriel/Object-Tracking-Algorithms.git
 ```
 
-Go to the project directory
+Accede al directorio del proyecto
 
 ```bash
-  cd my-project
+  cd Object-Tracking-Algorithms
 ```
 
-Install dependencies
 
+Corre el Filtro Partícula
 ```bash
-  npm install
+  python particle-filter/src/particle_filter.py
 ```
 
-Start the server
-
+ Corre el Filtro de Kalman 
 ```bash
-  npm run start
+  python kalman-filter/src/main.py
 ```
 
-  
-## Running Tests
-
-To run tests, run the following command
-
+Corre el algoritmo de Lukas Kanade
 ```bash
-  npm run test
+  python opticalFlow/src/LukasKanade.py
 ```
 
-  
-## Usage/Examples
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
+Corre el algoritmo de Farneback
+```bash
+  python opticalFlow/src/farneback.py
 ```
-
