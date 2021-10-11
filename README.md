@@ -49,26 +49,32 @@ Clona el proyecto
 Accede al directorio del proyecto
 
 ```bash
-  cd Object-Tracking-Algorithms
+cd Object-Tracking-Algorithms
 ```
 
+Crea el ambiente
+```bash
+conda create --name ot python == 3.6.9
+conda activate ot
+pip install opencv-python == 3.4.10.35
+```
 
 Corre el Filtro Partícula
 ```bash
-  python particle-filter/src/particle_filter.py
+python particle-filter/src/particle_filter.py
 ```
 
  Corre el Filtro de Kalman 
 ```bash
-  python kalman-filter/src/main.py
+python kalman-filter/src/main.py
 ```
 
 Corre el algoritmo de Lukas Kanade
 ```bash
-  python opticalFlow/src/LukasKanade.py
+python opticalFlow/src/lk.py
 ```
 
 Corre el algoritmo de Farneback
 ```bash
-  python opticalFlow/src/farneback.py
+python opticalFlow/src/farneback.py
 ```
