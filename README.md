@@ -57,6 +57,8 @@ Crea el ambiente
 conda create --name ot python == 3.6.9
 conda activate ot
 pip install opencv-python == 3.4.10.35
+pip install matplotlib
+pip install flow_vis
 ```
 
 Corre el Filtro Partícula
