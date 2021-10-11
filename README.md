@@ -63,20 +63,24 @@ pip install flow_vis
 
 Corre el Filtro Partícula
 ```bash
-python particle-filter/src/particle_filter.py
+cd particle-filter/src/
+python particle_filter.py
 ```
 
  Corre el Filtro de Kalman 
 ```bash
-python kalman-filter/src/main.py
+cd kalman-filter/src/
+python main.py
 ```
 
 Corre el algoritmo de Lukas Kanade
 ```bash
-python opticalFlow/src/lk.py
+cd opticalFlow/src/
+python lk.py
 ```
 
 Corre el algoritmo de Farneback
 ```bash
-python opticalFlow/src/farneback.py
+cd opticalFlow/src/
+python farneback.py
 ```
