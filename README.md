@@ -54,9 +54,9 @@ cd Object-Tracking-Algorithms
 
 Crea el ambiente
 ```bash
-conda create --name ot python == 3.6.9
+conda create --name ot python==3.6.9
 conda activate ot
-pip install opencv-python == 3.4.10.35
+pip install opencv-python==3.4.10.35
 pip install matplotlib
 pip install flow_vis
 ```
