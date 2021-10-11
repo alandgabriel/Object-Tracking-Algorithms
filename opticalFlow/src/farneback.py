@@ -24,9 +24,9 @@ for i in range(len(imgF)-1):
     k = cv2.waitKey(30) & 0xff
     if k == 27:
         break
-    cv2.imshow('Input sequence',cv2.imread(imgF[i]))
-    j = cv2.waitKey(30) & 0xff
-    if j == 27:
-        break
+   # cv2.imshow('Input sequence',cv2.imread(imgF[i]))
+   # j = cv2.waitKey(30) & 0xff
+   # if j == 27:
+   #     break
     cv2.imwrite(f'./farneback_results/optical_farne_{i}.png', flow_mag_color)
 
